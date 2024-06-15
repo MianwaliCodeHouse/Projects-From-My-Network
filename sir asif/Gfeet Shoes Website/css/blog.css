@@ -1,0 +1,50 @@
+.blog{
+  max-width: 1400px;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+.blog h1{
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+.card h5{
+  font-size: 0.9rem;
+  font-weight: normal;
+  padding: 0.4rem 2rem;
+}
+.card h3{
+  font-size: 1.3rem;
+  padding: 0.4rem 2rem;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  align-items: flex-end;
+}
+.card img{
+  width: 100%;
+ margin-bottom: 1rem;
+}
+.card button{
+  margin-top: 1rem;
+  margin-left: 2rem;
+  padding: 0.8rem 1.2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.card{
+  min-width: 300px;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 28%;
+  background-color: #020020;
+  padding-bottom: 2rem;
+}
+.card a{
+  color: white;
+  text-decoration: none;
+}

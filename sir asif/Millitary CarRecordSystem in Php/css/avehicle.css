@@ -1,0 +1,36 @@
+main{
+  padding: 3rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  /* align-items: center; */
+}
+main>a>div{
+  width: 300px;
+  border: 1px solid;
+  height: 180px;
+  display: grid;
+  place-content: center;
+  background-color: #fff;
+  border-radius: 2%;
+}
+main>a{
+  text-decoration: none;
+  font-size: 2rem;
+}
+.v-title{
+text-align: center;
+font-size: 4rem;
+color: #fff;
+text-decoration: underline;
+}
+h1.checks{
+  border-top: 1px solid #ffffff5c;
+  max-width: 1400px;
+  margin: auto;
+  font-size: 3.5rem;
+padding-top: 3rem;
+text-decoration: underline;
+text-align: center;
+}

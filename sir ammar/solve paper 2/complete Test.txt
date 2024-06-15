@@ -1,0 +1,199 @@
+Question#1
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Question#1</title>
+  <style>
+    body{
+      background-color: lightblue;
+      color: red;
+      
+    }
+    p{
+      text-align: center;
+    }
+    h1{
+      text-align: center;
+      font-family: Jokerman;
+      color: blue;
+    }
+    h3{
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>This is Second Webpage</h1>
+  <hr>
+  <hr>
+  <hr>
+  <p>I am a student in semseter-1 at Middle East College <br>
+  I have a Web Developement module. <br>
+that is helping me to create a webpage using HTML tags.</p>
+<p>Visit my college website: <a href="www.mec.edu.om">MEC</a></p>
+<h3>Contact my teachers by:</h3>
+<p>
+  <a href="ghaniya@mec.edu.om">Ms. Ghaniya</a> <br>
+  <a href="aparna@mec.edu.om">Ms. Aparna</a> <br>
+  <a href="aisham@mec.edu.om">Ms. Aisha</a>
+</p>
+
+<p>
+  My Name is:
+  <input type="text" placeholder="Type your Name">
+  My ID is:
+  <input type="text" placeholder="Type your ID">
+</p>
+<hr>
+<h3 style="text-decoration: underline;">Thanks you!!!</h3>
+</body>
+</html>
+
+------------
+
+Question#2
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Question#2</title>
+  <style>
+    body{
+      background-color: purple;
+      color: white;
+    }
+    h1{
+      text-align: center;
+      text-decoration: underline;
+    }
+    .section{
+      text-align: center;
+    }
+    div p{
+      text-align: center;
+    }
+    img{
+      width: 20%;
+      border: 3px solid;
+    }
+    table{
+      border: 3px solid;
+    }
+  </style>
+</head>
+<body>
+  <h1>Today is Third Assessment - Lab Exam Test-Spring 2023</h1>
+  <div class="section">
+    Dear Student Do Well!!
+    <img src="" alt="Image display Here with 20% width ">
+  </div>
+  <table border="1" cellpadding="5px">
+    <tr>
+      <td>Module Name</td>
+      <td>Module Code</td>
+    </tr>
+    <tr>
+      <td>Web Developement</td>
+      <td>COMP 10004.1</td>
+    </tr>
+    <tr>
+      <td>Principles of Programming</td>
+      <td>COMP 10017</td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <b>For more information, please Contact Me @ <a href="">MailMe</a></b>
+      </td>
+      
+    </tr>
+  </table>
+  <div class="section">
+
+    <p>
+      Type Your Name 
+      <input type="text">
+      
+    </p>
+    <p>
+      Type Your ID 
+      <input type="text">
+
+    </p>
+  </div>
+</body>
+</html>
+
+------------
+
+Question#3
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Question#3</title>
+  <style>
+    *{
+      background-color: teal;
+      color: white;
+    }
+    .heading{
+      text-decoration: underline;
+      color: red;
+      text-align: center;
+      font-family: Magneto;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="heading">Fill All Details</h1>
+  <h1 class="h1">Submit Your Information</h1>
+  <p>
+    First Name
+    <input type="text">
+    Second Name
+    <input type="text">
+    LastName
+    <input type="text">
+  </p>
+  <p>
+    Date of Birth
+    <input type="date">
+  </p>
+  <p>
+    Gender
+    <input type="radio" name="gender" id="">Male
+    <input type="radio" name="gender" id="">Female
+  </p>
+  <p>
+    Hobbies
+    <input type="checkbox" name="" id="">Designing
+    <input type="checkbox" name="" id="">Reading
+    <input type="checkbox" name="" id="">Listening to Music
+  </p>
+  <p>
+    Education
+    <select name="" id="">
+      <option value="">
+        Select any one
+      </option>
+      <option value="">
+UnderGraduate
+      </option>
+      <option value="">
+PostGraduate
+      </option>
+    </select>
+  </p>
+  <p>
+    Skills:
+    <input type="checkbox" name="" id="">Programming
+    <input type="checkbox" name="" id="">Data Analysis
+    <input type="checkbox" name="" id="">Design
+
+  </p>
+  <p>Type Your CV</p>
+  <textarea name="" id="" cols="30" rows="10" placeholder="Please type here!!"></textarea>
+  <br>
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+</body>
+</html>
+

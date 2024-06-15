@@ -1,0 +1,98 @@
+.traker{
+  padding: 1rem;
+  max-width: 800px;
+  text-align: center;
+  margin: auto;
+  font-size: 2.2rem;
+
+}
+.traker h1{
+  text-decoration: underline;
+}
+main{
+  margin: 3rem 0;
+  height: 75vh;
+  display: grid;
+  place-content: center;
+}
+form{
+  padding: 3rem;
+  box-shadow: 0px 5px 5px 2px rgba(225, 180, 255, 0.085);
+  max-width: 400px;
+  width: 80%;
+  min-width: 400px;
+  margin: 3rem auto 0 auto;
+  background-color: #fff;
+  border-radius: 5px;
+}
+form h1{
+  color: #9551d1;
+  text-align: center;
+  font-size: 3.5rem;
+  padding-bottom: 2rem;
+}
+input{
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+input[type=submit]{
+  background-color: #7e22ce;
+  color: white;
+  border: none;
+  margin-top: 2rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+input[type=text],input[type=password]{
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000;
+}
+input[type=text]:focus,input[type=password]:focus{
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000;
+}
+.icon{
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+.nav{
+  position: relative;
+}
+#shownav{
+  
+  z-index: -1;
+  position:absolute;
+  width: 200px;
+  right: -15px;
+  bottom: 0;
+  transition: all 0.5s ease-in-out;
+
+}
+.show{
+  bottom: -165px !important;
+  padding: 0.1rem 1.4rem 2.5rem;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 5px 5px 2px rgba(223, 174, 255, 0.085);
+  z-index: 1 !important;
+}
+#shownav ul{
+  list-style: none;
+  padding: 0;
+
+}
+#shownav ul li{
+  margin-top: 0.4rem;
+  border-bottom: 1px solid #000;
+  padding: 2rem 0 0.4rem;
+  text-align: center;
+  cursor: pointer;
+  color: #7e22ce !important;
+  font-size: 1.3rem;
+}
+h4{
+  margin-top: 1rem;
+}

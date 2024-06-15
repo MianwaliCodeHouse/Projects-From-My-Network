@@ -1,0 +1,24 @@
+.checks{
+  padding: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  /* align-items: center; */
+  min-height: 58vh;
+  margin: auto;
+}
+.checks>a>div{
+  width: 300px;
+  border: 1px solid;
+  height: 200px;
+  display: grid;
+  place-content: center;
+  background-color: #fff;
+  border-radius: 2%;
+}
+.checks>a{
+  text-decoration: none;
+  font-size: 2rem;
+}

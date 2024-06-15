@@ -1,0 +1,564 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#TopIcon {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: none;
+}
+
+#TopIcon img {
+  width: 50px;
+}
+
+body {
+  font-family: system-ui;
+  background-color: #f8f8f8;
+}
+
+/* --------------- */
+.display1 {
+  background: linear-gradient(90deg, rgb(2, 0, 36), rgba(0, 0, 0, 0.445));
+  position: relative;
+  overflow: hidden;
+  color: white;
+}
+
+.sticky {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: rgb(0, 102, 102);
+  z-index: 100;
+}
+
+nav .icon {
+  display: none;
+}
+
+.navbar {
+  padding: 0 2rem;
+  transition: 0.3s ease-in;
+}
+
+.nav {
+  max-width: 1400px;
+
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding: 0.6rem 0;
+}
+
+.header .section {
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 3rem;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.display1 img {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.section h1 {
+  font-size: 3rem;
+  font-weight: 600;
+
+}
+
+.header .button {
+  text-decoration: none;
+  background-color: rgb(0, 160, 160);
+  width: fit-content;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 1.5rem;
+  border-radius: 2px;
+}
+
+.navbar a {
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-decoration: none;
+  margin-right: 1.5rem;
+  padding: 1rem 0.3rem;
+}
+
+
+/* -------- */
+
+.display2 {
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+
+}
+
+.display2 .section1 {
+  display: flex;
+  justify-content: center;
+  width: 55%;
+  height: 100%;
+  min-width: 300px;
+  padding: 2rem;
+  position: relative;
+}
+
+.display2 .section1 .circle {
+  position: absolute;
+  top: 0;
+  left: -70px;
+  width: 50%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgb(0, 102, 102);
+  z-index: -1;
+}
+
+.display2 .section1 img {
+  width: 80%;
+  border-radius: 10px;
+}
+
+.display2 .section2 h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.display2 .section2 .bar {
+  width: 150px;
+  height: 5px;
+  background-color: rgb(0, 102, 102);
+  margin: 1rem 0;
+}
+
+.display2 .section2 p {
+  font-size: 2rem;
+}
+
+
+/* ---------------- */
+
+.display5,
+.display6,
+.display4,
+.display3 {
+  max-width: 1300px;
+  margin: auto;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.display5 h1,
+.display6 h1,
+.display3 h1,
+.display4 h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+.display5 .bar,
+.display6 .bar,
+.display3 .bar,
+.display4 .bar {
+  width: 100px;
+  height: 3px;
+  background-color: rgb(0, 102, 102);
+  margin: 1rem auto 5rem;
+}
+
+
+
+
+
+/* ----------- */
+
+.display3 .cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.display3 .card img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto 1.4rem;
+  border-radius: 50%;
+}
+
+.display3 .card {
+  width: 28%;
+  min-width: 250px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.display4 .card p,
+.display3 .card p {
+  font-size: 1.2rem;
+}
+
+
+
+
+/* -------------- */
+.display4 .cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.display4 .card {
+  width: 30%;
+  min-width: 370px;
+  padding: 1rem;
+  gap: 30px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.display4 .card img {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+
+
+/* --------------- */
+
+.tcard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+
+}
+
+.testimonials .tcard>img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.tcard img {
+  width: 30px;
+}
+
+.tcard .msg {
+  padding: 1rem 4rem;
+  font-size: 1.3rem;
+}
+
+.tcard .msg>img:nth-child(4) {
+  float: right;
+}
+
+.tcard .bar {
+  margin: 1rem 0;
+}
+
+
+
+
+
+.display6 img {
+  width: 50px;
+}
+
+.display6 .contact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.display6 #phoneNo {
+  width: 20px;
+}
+
+.contact .section1 {
+  width: 50%;
+  min-width: 300px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact .section1 p:nth-child(1) {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.contact .section1 p:nth-child(2) {
+  margin: 1rem auto;
+  color: gray;
+}
+
+.contact .section1 p:nth-child(3) img {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.contact .section2 {
+  min-width: 300px;
+}
+
+.contact .section2 input[type=email],
+.contact .section2 textarea,
+.contact button {
+  display: block;
+  width: 100%;
+}
+
+.contact .section2 .group input {
+  width: 49.5%;
+}
+
+.contact input,
+textarea,
+.contact button {
+  padding: 0.7rem 1rem;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.contact input,
+textarea {
+  border: 0.5px solid rgba(128, 128, 128, 0.596);
+  border-radius: 4px;
+}
+
+.contact button {
+  background-color: rgb(0, 102, 102);
+  color: white;
+  border: none;
+}
+
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  padding: 1.2rem 0.5rem;
+  margin: 1rem auto;
+}
+footer>div{
+  margin: 1rem auto;
+}
+footer .icons img{
+  width: 50px;
+  float: right;
+}
+footer .links{
+  margin-bottom: 1rem;
+}
+footer .links a{
+  text-decoration: none;
+  font-size: 1.1rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  color: rgb(73, 73, 73);
+}
+footer .s1 h2{
+  font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+/* Responsiveness of Website  */
+
+@media(max-width:800px) {
+  nav {
+    position: relative;
+  }
+.tcard{
+  flex-wrap: wrap;
+}
+.testimonials .tcard>img{
+  width: 200px;
+  height: 200px;
+}
+  nav .links {
+    position: absolute;
+    background-color: rgba(0, 102, 102, 0.911);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    transform: translateX(350px);
+    top: 30px;
+    right: 0;
+    padding: 4rem 0 1rem;
+    text-align: center;
+    transition: 0.3s ease-in;
+  }
+
+  .show {
+    transform: translateX(50px) !important;
+  }
+
+  nav .icon {
+    display: block;
+    cursor: pointer;
+    transform: rotate(90deg);
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+}
+
+@media(max-width:1000px) {
+  .contact {
+    flex-direction: column;
+  }
+
+  .contact .section1 {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+
+  .contact .section2 {
+    padding: 0 3rem;
+    margin-bottom: 5rem;
+  }
+
+  .display1 h2 {
+    font-size: 1.8rem;
+  }
+
+  .display1 h1 {
+    font-size: 2rem;
+  }
+
+  .display1 .button {
+    font-size: 1.4rem;
+  }
+
+  .display1 .section {
+    min-height: 50vh;
+  }
+
+  .display2 .circle {
+    display: none;
+  }
+
+  .display2 {
+    flex-direction: column;
+  }
+
+  .display2 .section1 {
+    width: 100%;
+  }
+
+  .display4 .card,
+  .display3 .card {
+    width: 40%;
+    gap: 20px;
+    margin: 2rem 1rem;
+  }
+}
+
+
+
+
+@media(max-width:600px) {
+  html{
+    font-size: 90%;
+  }
+  .display4 .card {
+    min-width: 270px;
+  }
+
+  .contact .section2 .group input {
+    width: 100%;
+  }
+
+  .nav h2 {
+    text-align: center;
+  }
+
+  .display1 h1 {
+    font-size: 1.5rem;
+  }
+
+  .display1 .button {
+    font-size: 1rem;
+  }
+
+  .display2 .section2 h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .display2 .section2 .bar {
+    margin: 1rem auto;
+    height: 2px;
+  }
+  .testimonials .tcard .msg{
+    padding: 1rem;
+  }
+  .testimonials .tcard p{
+    font-size: 0.9rem;
+  }
+  .display2 .section2 p {
+    font-size: 1.4rem;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .display5 h1,.display6 h1,
+  .display3 h1,
+  .display4 h1 {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+
+}

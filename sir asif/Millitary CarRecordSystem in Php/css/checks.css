@@ -1,0 +1,30 @@
+main{
+  padding: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  /* align-items: center; */
+  min-height: 40vh;
+  margin: auto;
+}
+main>a>div{
+  width: 300px;
+  border: 1px solid;
+  height: 200px;
+  display: grid;
+  place-content: center;
+  background-color: #fff;
+  border-radius: 3%;
+}
+main>a{
+  text-decoration: none;
+  font-size: 2rem;
+}
+.body h1{
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 4rem;
+  text-decoration: underline;
+}
